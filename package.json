@@ -3,12 +3,13 @@
   "version": "0.1.0",
   "private": false,
   "homepage": "https://sonnysparks15.github.io",
-"dependencies": {
+  "dependencies": {
     "@testing-library/jest-dom": "^5.11.6",
     "@testing-library/react": "^11.2.2",
     "@testing-library/user-event": "^12.6.0",
     "bootstrap": "^4.5.3",
     "gh": "^2.8.9",
+    "gh-pages": "^4.0.0",
     "react": "^17.0.1",
     "react-bootstrap": "^1.4.0",
     "react-dom": "^17.0.1",
