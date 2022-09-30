@@ -18,7 +18,7 @@ function Home() {
               </h1>
 
               <p className="heading-description blockquote">
-                I am passionate mathematician and computer scientist. “Any fool can write code that a computer can understand.
+                I am a passionate mathematician and computer scientist. “Any fool can write code that a computer can understand.
                 Good programmers write code that humans can understand.”
                 – Martin Fowler, software engineer, object-oriented programming pioneer.
               </p>
@@ -28,8 +28,8 @@ function Home() {
               </div>
             </Col>
 
-            <Col md={5}>
-              <img src={myImg} className="profile-pic flex-fill" alt="avatar" />
+            <Col md={6}>
+              <img src={myImg} className="profile-pic" alt="avatar" />
             </Col>
           </Row>
         </Container>

@@ -6,7 +6,6 @@ import matlab_Projects from "./Assets/Projects/matlab-original.svg";
 import python_Projects from "./Assets/Projects/python-original-wordmark.svg";
 import js_Projects from "./Assets/Projects/javascript-plain.svg";
 
-import CaffR from "./Assets/Caffinated Classification.pdf"
 
 
 export const PROJECTS = [
@@ -20,31 +19,36 @@ export const PROJECTS = [
     image: Csh_Projects,
     name: "C# Projects",
     technologyUsed: "C#, Jetbrains Rider, Visual Studio",
-    url: "",
+    url: "https://github.com/sonnysparks15/C-Scripts",
+    target: true,
   },
   {
     image: matlab_Projects,
     name: "Matlab Projects",
     technologyUsed: "Matlab",
-    url: "",
+    url: "/matlabproject",
+    target: false,
   },
   {
     image: python_Projects,
     name: "Python Projects",
     technologyUsed: "Python, Jetbrains PyCharm, Jupiter",
     url: "",
+    target: false,
   },
   {
     image: C_Projects,
     name: "C/C++ Projects",
     technologyUsed: "C/C++, CLion, Code Blocks",
-    url: "",
+    url: "https://github.com/sonnysparks15/C-Scripts",
+    target: true,
   },
   {
     image: js_Projects,
     name: "JavaScript Projects",
     technologyUsed: "ReactJs, JavaScript, Jetbrains Webstorm",
-    url: "",
+    url: "/",
+    target: false,
   }
 ];
 

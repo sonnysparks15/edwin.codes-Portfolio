@@ -10,12 +10,14 @@ function ProjectCards(props) {
       <Card.Body>
         <Card.Title style={{fontWeight: "bold"}}>{props.title}</Card.Title>
         <Card.Text className="purple">Technology: {props.technologyUsed}</Card.Text>
+
         <Card.Text style={{ textAlign: "justify" }}>
           {props.description}
+            
         </Card.Text>
-        <Button variant="primary" href={props.link} target="_blank"className="download-button">
+        <Button variant="primary" href={props.url} target={props.target ? "_blank" : ""} className="download-button">
           <BiLinkExternal /> &nbsp;
-          {props.isBlog ? "View Blog" : "View Projects"}
+          View Projects
         </Button>
       </Card.Body>
     </Card>

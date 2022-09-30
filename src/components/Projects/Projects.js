@@ -12,9 +12,9 @@ function Projects() {
         <h1 className="project-heading">
           My Recent <strong className="purple">Projects </strong>
         </h1>
-        <p style={{ color: "white" }}>
+        <h5 style={{ color: "black" }}>
           Here are a few projects I've worked on recently.
-        </p>
+        </h5>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           {PROJECTS.map((project, index) => (
             <Col md={4} className="project-card" key={index}>
@@ -24,7 +24,7 @@ function Projects() {
                 isBlog={false}
                 title={project.name}
                 url={project.url}
-
+                target={project.target}
               />
             </Col>
           ))}

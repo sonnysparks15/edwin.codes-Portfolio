@@ -1,2 +1,2 @@
-# sonnysparks15.github.io
+# edwin.codes
 Edwin Sparks Portfolio

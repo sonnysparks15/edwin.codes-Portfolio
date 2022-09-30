@@ -9,7 +9,7 @@ function TypeWriter() {
           "C/C++/C# Developer",
           "Python Developer",
           "Software Engineer",
-          "Open Source Contributor",
+          "Ridiculously Handsome",
         ],
         autoStart: true,
         loop: true,
