@@ -12,6 +12,8 @@ import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 import ScrollToTop from "./components/ScrollToTop";
+import RProject from "./components/RProject/RProject";
+import MatLabProject from "./components/MatLabProjects/MatLabProjects";
 
 function App() {
   const [load, upadateLoad] = useState(true);
@@ -37,6 +39,8 @@ function App() {
             <Route path="/project" component={Projects} />
             <Route path="/about" component={About} />
             <Route path="/resume" component={Resume} />
+            <Route path="/rproject" component={RProject} />
+            <Route path="/matlabproject" component={MatLabProject} />
           </Switch>
           <Footer />
         </div>
