@@ -18,9 +18,9 @@ function Home() {
               </h1>
 
               <p className="heading-description blockquote">
-                I am a passionate mathematician and computer scientist. “Any fool can write code that a computer can understand.
-                Good programmers write code that humans can understand.”
-                – Martin Fowler, software engineer, object-oriented programming pioneer.
+                I have a background in Mathematics and Computer Science. You can find more
+                information of my prior works in the Projects tab, and my credentials in the Resume tab.
+                This website was developed by myself in React-JS.
               </p>
 
               <div className="heading-type">

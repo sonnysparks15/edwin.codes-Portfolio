@@ -13,7 +13,8 @@ export const PROJECTS = [
     image: R_Projects,
     name: "R Projects",
     technologyUsed: "R, R Studio",
-    url: "",
+    url: '/rproject',
+    target: false,
   },
   {
     image: Csh_Projects,
@@ -33,8 +34,8 @@ export const PROJECTS = [
     image: python_Projects,
     name: "Python Projects",
     technologyUsed: "Python, Jetbrains PyCharm, Jupiter",
-    url: "",
-    target: false,
+    url: "https://github.com/sonnysparks15/Python-Scripts",
+    target: true,
   },
   {
     image: C_Projects,
